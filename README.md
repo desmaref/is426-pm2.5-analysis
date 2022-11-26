@@ -32,7 +32,7 @@ filter PM2.5 data to 2016, select rows of fpis state, fpis county, average PM2.5
 
 Join with fpis data, filter by selected counties of intrest
 
-determine stations in each county to determine weather, pull data from website and join with filtered PM data
+pull data from weather website and join with filtered PM data
 
 possibly summarize average weather and average PM by month -determine and calculate relevant summary statistics (average temp, proportion of days with rain, etc)
 
