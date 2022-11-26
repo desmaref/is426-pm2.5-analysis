@@ -27,5 +27,16 @@ Average daily PM2.5 is used to measure PM for each date
 Certain Counties will be selected and explored individually, some with more population than other. 
 Initial county selections before looking at data- St. Lawrence County, Kings County
 
+## Data processing steps
+filter PM2.5 data to 2016, select rows of fpis state, fpis county, average PM2.5
+
+Join with fpis data, filter by selected counties of intrest
+
+determine stations in each county to determine weather, pull data from website and join with filtered PM data
+
+possibly summarize average weather and average PM by month -determine and calculate relevant summary statistics
+
+pass to pandas dataframe for visualization purposes
+
 ## Results/Findings
 Currently Working through Project
