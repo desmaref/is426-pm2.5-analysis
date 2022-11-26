@@ -30,9 +30,9 @@ Initial county selections before looking at data- St. Lawrence County, Kings Cou
 ## Data processing steps
 filter PM2.5 data to 2016, select rows of fpis state, fpis county, average PM2.5
 
-Join with fpis data, filter by selected counties of intrest
+Join with fpis data, filter by selected counties of intrest, make sperate datasets for each country
 
-pull data from weather website and join with filtered PM data
+pull data from weather website and join with filtered PM data for each county
 
 possibly summarize average weather and average PM by month -determine and calculate relevant summary statistics (average temp, proportion of days with rain, etc)
 
