@@ -38,5 +38,7 @@ possibly summarize average weather and average PM by month -determine and calcul
 
 pass to pandas dataframe for visualization purposes
 
+Depending on resultys, may pull data from census api to explore differenced between pm in counties(Does population, wealth, race affect pm?)
+
 ## Results/Findings
 Currently Working through Project
