@@ -34,7 +34,7 @@ Join with fpis data, filter by selected counties of intrest
 
 determine stations in each county to determine weather, pull data from website and join with filtered PM data
 
-possibly summarize average weather and average PM by month -determine and calculate relevant summary statistics
+possibly summarize average weather and average PM by month -determine and calculate relevant summary statistics (average temp, proportion of days with rain, etc)
 
 pass to pandas dataframe for visualization purposes
 
