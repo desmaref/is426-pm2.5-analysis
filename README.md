@@ -1,4 +1,4 @@
-##### is426 Project: Particulate Matter 2.5 analysis based on Weather Conditions in the NorthEastern United States 
+### is426 Project: Particulate Matter 2.5 analysis based on Weather Conditions in the NorthEastern United States 
 
 # Objective Overview 
 
