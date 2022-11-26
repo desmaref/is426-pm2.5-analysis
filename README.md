@@ -4,9 +4,9 @@
 
 
 ## Data Set Descriptions
-### Particulate Matter Dataset - CDC data found at https://data.cdc.gov/Environmental-Health-Toxicology/Daily-PM2-5-Concentrations-All-County-2001-2016/7vdq-ztk9
+### Particulate Matter Dataset  https://data.cdc.gov/Environmental-Health-Toxicology/Daily-PM2-5-Concentrations-All-County-2001-2016/7vdq-ztk9
 
-This data includes average,highest and lowest pm concentrations for each fpis code in the country from 2001 through 2016
+This data includes average,highest and lowest pm concentrations for each fpis code in the country from 2001 through 2016. Taken from the CDC data website.
 
 ### Weather Data - https://www.ncei.noaa.gov/cdo-web/search
 
