@@ -1,6 +1,6 @@
 # is426 Project: Particulate Matter 2.5 analysis based on Weather Conditions in the NorthEastern United States 
 
-## Objective Overview 
+## Objective Overview
 The intent of this project is to explore and visualize the correlation between weather and particulate matter 2.5 in certain counties in the northeast. 
 
 ## Data Set Descriptions
@@ -38,7 +38,9 @@ possibly summarize average weather and average PM by month -determine and calcul
 
 pass to pandas dataframe for visualization purposes
 
-Depending on resultys, may pull data from census api to explore differenced between pm in counties(Does population, wealth, race affect pm?)
+Depending on results, may pull data from census api to explore differenced between pm in counties(Does population, wealth, race affect pm?)
+
+## Analysis
 
 ## Results/Findings
 Currently Working through Project
