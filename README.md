@@ -1,12 +1,20 @@
 # is426 Project: Particulate Matter 2.5 analysis based on Weather Conditions in the NorthEastern United States 
 
 ## Objective Overview
-The intent of this project is to explore and visualize the correlation between weather and particulate matter 2.5 in certain counties in the northeast. 
+The intent of this project is to explore and visualize the correlation between weather and particulate matter 2.5 in certain counties in the northeast. While relationships between particulate matter and weather have already been identified, I would like explore if there is any relationship between amounts of percipitation and particulate matter concentrations. 
+
+### Hypothesis
+
+$H_0$= There is no relationship between PM2.5 particles and precipitation
+
+
+$H_a$= There is a relationship between PM2.5 particles and precipitation
+
 
 ## Data Set Descriptions
-### Particulate Matter Dataset  https://data.cdc.gov/Environmental-Health-Toxicology/Daily-PM2-5-Concentrations-All-County-2001-2016/7vdq-ztk9
+### Particulate Matter Dataset - https://data.cdc.gov/Environmental-Health-Toxicology/Daily-PM2-5-Concentrations-All-County-2001-2016/7vdq-ztk9
 
-This data includes average,highest and lowest pm concentrations for each fpis code in the country from 2001 through 2016. Taken from the CDC data website.
+This data includes average,highest and lowest pm concentrations for each fpis code in the country from 2001 through 2016. This data was taken from the CDC website. Relevant Columns for the analysis include the following: 
 
 ### Weather Data - https://www.ncei.noaa.gov/cdo-web/search
 
