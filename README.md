@@ -27,7 +27,7 @@ averagepm2.5 | The average PM 2.5 which occured in the area of observation.
 
 Two Weather datasets are pulled from the NOAA website. Each contains percipitation data for each weather station in a selected county, for each day in 2016. All of the possible measurements are shown in the image below:
 
-![Image] (/Image/weather_fields.png)
+![Image] (/Images/weather_fields.png)
 
 ### FPIS Codes - https://www.census.gov/geographies/reference-files/2020/demo/popest/2020-fips.html
 
