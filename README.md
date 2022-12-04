@@ -72,6 +72,24 @@ Once I had these datasets filtered, I exported them to CSVs, located in the outp
 
 Throuhout the previous comple of steps, I was using base python to do my manipulations. For the rest of the project, I will usilize the pandas library, as I will have to apply functions often through full columns.
 
+#### Weather Data preparation
+The weather data required a significant amount of assumptions for this analysis. I started with tow datasets, one for Saint Lawrence County, and the other for Kings County. For each dataset I performed the following steps:
+
+- The weather data had many blank percipitation values. I assumed that as it rains less often than not, it is safe to assume that zero rain occured on these days with no observations. I replaced all N/A values in that column with zeros.
+- The Saint Lawrence Weather data has several weather stations, which observed different percipitation data per day, as they were located in different parts of the county. I decided to take an average over all the weather stations for each day to get a measure of overall percipitation. 
+
+I additionally converted the date fields to datetime objects to make future aggregations easier. 
+#### Joining Weather Data and PM2.5 data
+For both counties, I had a weather dataset and a PM2.5 dataset, with observations having a granualarity of one day. I performed a left join on these datasets to get final datasets for each county. These datasets contained the following columns:
+
+Column Header | Description
+-------------- | -------------
+date |  the day an observation occured
+averagepm2.5| The average PM2.5 in the air 
+prcp| The average percipitation in the county
+
+The St. Lawrence dataset was left with exactly 1 year of data (365 rows), while the Kings County dataset contained 255, as the Kings county weather station did report daily. These datasets were used for plotting scatterplots and linear regression on a daily granularity. 
+
 ###  Aggregate by month for futher visualization
 
 ## Analysis
