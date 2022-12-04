@@ -62,8 +62,11 @@ Using the CSV I had generated in the previous part, I joined the PM2.5 data, whi
 
 I then filtered the dataset for both St. Lawrence County and Kings County. It turned out that there were two Kings Counties in the United States, so in order to filter for the Kings County in New York only, I had to use the FPIS State code for New York city (Code 36) in the IF statement. This is shown in the code segment below
 ```python
-
+if line[5]== "Kings County" and line[2] == "36":
+  newline = {"year" : line[0], "date" : line[1], "statefips" : line[2], 'countyfips' : line[3], "averagepm2.5" : line[4],"County": line[5]}
+  csvkings.append(newline)
 ```
+Once I had these datasets filtered, I exported them to CSVs, located in the output folder of this github repository. 
 
 ### Join PM and Precipitation data for each County
 
