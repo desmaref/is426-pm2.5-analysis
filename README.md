@@ -25,37 +25,40 @@ averagepm2.5 | The average PM 2.5 which occured in the area of observation.
 
 ### Weather Data - https://www.ncei.noaa.gov/cdo-web/search
 
-Two Weather datasets are pulled from the NOAA website. Each contains percipitation data for each weather station in a selected county, for each day in 2016. All of the possible measurements are shown in the image below:
+Two Weather datasets are pulled from the NOAA website. Each contains weather data for each weather station in a selected county, for each day in 2016. All of the possible measurements are shown in the image below:
 
-![Image] (/Images/weather_fields.png)
+<img src="/Images/weather_fields.png" width="400" height="500">
+
+While all these fields are offered, most stations do not track all of this data, and therefore the majority of these rows are blank and data access can be limited. Especially in Kings County, a county in New York City, the data availiable is limited. In all interested counties, there is extensive precipitation data. The field PRCP which contains precipitation data will be the primary focus of my analysis
 
 ### FPIS Codes - https://www.census.gov/geographies/reference-files/2020/demo/popest/2020-fips.html
 
-Excel document which provides FIPS codes to be joined with CDC data to convert data into understandable locations. 
+This file is an excel document which provides FIPS codes to be joined with CDC data to convert data into understandable locations. The document coantains the following relevant fields:
+
+Column Header | Description
+-------------- | -------------
+State Code (FIPS) |  The state FPIS code, a integer number identifying the state 
+County Code (FIPS) | The County FPIS code, a integer number identifying the county of the observation
+Area Name (including legal/statistical area description) | Contains the name of the county which is accociated with the State andCounty codes
+
 
 ## Assumptions 
-
-Data from the most recent year in the dataset 2016 is the most relevant, and will be used for analysis
-
-Breakdown for both Weather data and Particulate matter will be broken down daily
-
-Average daily PM2.5 is used to measure PM for each date
-
-Certain Counties will be selected and explored individually, some with more population than other. 
-Initial county selections before looking at data- St. Lawrence County, Kings County
+- The North East may differ from the in PM effect, as it has unique weather compared to the rest of the county. Therefore, the analysis will focus on counties in the northeast
+- Data from the most recent year in the dataset 2016 is the most relevant, and will be used for analysis
+- Average daily PM2.5 is used to measure PM for each date
+- Certain Counties will be selected and explored individually, some with more population than other. The counties selected for analysis are Saint Lawrence county (located in upstate new york) and Kings Country (Located in New York City) 
 
 ## Data processing steps
-filter PM2.5 data to 2016, select rows of fpis state, fpis county, average PM2.5
 
-Join with fpis data, filter by selected counties of intrest, make sperate datasets for each country
+### Filter PM2.5 data to 2016
 
-pull data from weather website and join with filtered PM data for each county
+### Join with FPIS data 
 
-possibly summarize average weather and average PM by month -determine and calculate relevant summary statistics (average temp, proportion of days with rain, etc)
+### Filter by Selected Counties of Intrest
 
-pass to pandas dataframe for visualization purposes
+### Join PM and Precipitation data for each County
 
-Depending on results, may pull data from census api to explore differenced between pm in counties(Does population, wealth, race affect pm?)
+###  Aggregate by month for futher visualization
 
 ## Analysis
 
