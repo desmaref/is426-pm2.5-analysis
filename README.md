@@ -49,12 +49,21 @@ Area Name (including legal/statistical area description) | Contains the name of 
 - Certain Counties will be selected and explored individually, some with more population than other. The counties selected for analysis are Saint Lawrence county (located in upstate new york) and Kings Country (Located in New York City) 
 
 ## Data processing steps
-
+  The following steps were used to prepare the data for visualization
 ### Filter PM2.5 data to 2016
 
+ I first filtered the data, which contained data from 2001 to 2016 into a dataset containing only observations from 2016. I additionally dropped rows which were unimportant. I then exported my data set containing a reduced number of row to a csv to be used in the next part of my processing.
+ 
 ### Join with FPIS data 
 
+Using the CSV I had generated in the previous part, I joined the PM2.5 data, which contains observations for a specific county level FPIS code, with my csv files containing acual names for each FPIS County-State pair. I joined the dataset on the two columns of County FPIS and State FPIS to get the name of each individual county.
+
 ### Filter by Selected Counties of Intrest
+
+I then filtered the dataset for both St. Lawrence County and Kings County. It turned out that there were two Kings Counties in the United States, so in order to filter for the Kings County in New York only, I had to use the FPIS State code for New York city (Code 36) in the IF statement. This is shown in the code segment below
+```python
+
+```
 
 ### Join PM and Precipitation data for each County
 
