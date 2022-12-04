@@ -70,6 +70,8 @@ Once I had these datasets filtered, I exported them to CSVs, located in the outp
 
 ### Join PM and Precipitation data for each County
 
+Throuhout the previous comple of steps, I was using base python to do my manipulations. For the rest of the project, I will usilize the pandas library, as I will have to apply functions often through full columns.
+
 ###  Aggregate by month for futher visualization
 
 ## Analysis
