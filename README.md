@@ -1,7 +1,7 @@
 # is426 Project: Particulate Matter 2.5 analysis based on Weather Conditions in the NorthEastern United States 
 
 ## Objective Overview
-The intent of this project is to explore and visualize the correlation between weather and particulate matter 2.5 in certain counties in the northeast. While relationships between particulate matter and weather have already been identified, I would like explore if there is any relationship between amounts of percipitation and particulate matter concentrations. 
+The intent of this project is to explore and visualize the correlation between weather and particulate matter 2.5 in certain counties in the northeast. While relationships between particulate matter and temperature have already been identified, I would like explore if there is any relationship between amounts of percipitation and particulate matter concentrations. 
 
 ### Hypothesis
 
