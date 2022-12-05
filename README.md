@@ -49,7 +49,7 @@ Area Name (including legal/statistical area description) | Contains the name of 
 - Certain Counties will be selected and explored individually, some with more population than other. The counties selected for analysis are Saint Lawrence county (located in upstate new york) and Kings Country (Located in New York City) 
 
 ## Data processing steps
-  The following steps were used to prepare the data for visualization
+  The following steps were used to prepare the data for visualization and analysis
 ### Filter PM2.5 data to 2016
 
  I first filtered the data, which contained data from 2001 to 2016 into a dataset containing only observations from 2016. I additionally dropped rows which were unimportant. I then exported my data set containing a reduced number of row to a csv to be used in the next part of my processing.
