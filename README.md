@@ -92,7 +92,7 @@ The St. Lawrence dataset was left with exactly 1 year of data (365 rows), while 
 
 ###  Aggregate by month for futher visualization
 After doing some analysis one a daily granularization, I decided to see what a comparison between PM2.5 and precipitation would look like on a monthly level. To do this, I used the pandas month function on the date column to isolate the month. I then grouped by the newly created month column and summarized by the average. The code I used is shown below:
-```pandas
+```python
 df_st_law_joined_monthly = pd.DataFrame(df_st_law_joined.groupby(df_st_law_joined.date.dt.month)['averagepm2.5',"prcp"].mean())
 ```
 I then cleaned up the dataset, renaming the month indexes to month names, and produced some visualization which I will discuss in the following sections.
