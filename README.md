@@ -44,7 +44,7 @@ Column Header | Description
 -------------- | -------------
 State Code (FIPS) |  The state FPIS code, a integer number identifying the state 
 County Code (FIPS) | The County FPIS code, a integer number identifying the county of the observation
-Area Name (including legal/statistical area description) | Contains the name of the county which is accociated with the State andCounty codes
+Area Name (including legal/statistical area description) | Contains the name of the county which is accociated with the State and County codes
 
 
 ## Assumptions 
@@ -78,7 +78,7 @@ Once I had these datasets filtered, I exported them to CSVs, located in the outp
 Throuhout the previous comple of steps, I was using base python to do my manipulations. For the rest of the project, I will usilize the pandas library, as I will have to apply functions often through full columns.
 
 #### Weather Data preparation
-The weather data required a significant amount of assumptions for this analysis. I started with tow datasets, one for Saint Lawrence County, and the other for Kings County. For each dataset I performed the following steps:
+The weather data required a significant amount of assumptions for this analysis. I started with two datasets, one for Saint Lawrence County, and the other for Kings County. For each dataset I performed the following steps:
 
 - The weather data had many blank percipitation values. I assumed that as it rains less often than not, it is safe to assume that zero rain occured on these days with no observations. I replaced all N/A values in that column with zeros.
 - The Saint Lawrence Weather data has several weather stations, which observed different percipitation data per day, as they were located in different parts of the county. I decided to take an average over all the weather stations for each day to get a measure of overall percipitation. 
