@@ -27,7 +27,12 @@ averagepm2.5 | The average PM 2.5 which occured in the area of observation.
 
 Two Weather datasets are pulled from the NOAA website. Each contains weather data for each weather station in a selected county, for each day in 2016. All of the possible measurements are shown in the image below:
 
-<img src="/Images/weather_fields.png" width="400" height="500">
+<div align="center"><img src="/Images/weather_fields.png" width="400" height="500"></div>
+
+<div align="center">Figure 1: Potential Weather Fields</div> 
+
+<br />
+
 
 While all these fields are offered, most stations do not track all of this data, and therefore the majority of these rows are blank and data access can be limited. Especially in Kings County, a county in New York City, the data availiable is limited. In all interested counties, there is extensive precipitation data. The field PRCP which contains precipitation data will be the primary focus of my analysis
 
@@ -97,6 +102,11 @@ df_st_law_joined_monthly = pd.DataFrame(df_st_law_joined.groupby(df_st_law_joine
 ```
 I then cleaned up the dataset, renaming the month indexes to month names, and produced some visualization which I will discuss in the following sections.
 ## Analysis
+Using the daily data for each county, linear regression was performed using the sklearn package. The graph of the linear regression and cooresponding data points for Saint Lawrence County is shown in Figure 2:
+
+<div align="center"><img src="/Images/st_law_Scatter.jpg" width="400" height="300">  </div>
+<div align="center">Figure 2: Saint Lawrence County Regression</div>
+<br />
 
 ## Results/Findings
 Currently Working through Project
