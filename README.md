@@ -103,9 +103,17 @@ df_st_law_joined_monthly = pd.DataFrame(df_st_law_joined.groupby(df_st_law_joine
 I then cleaned up the dataset, renaming the month indexes to month names, and produced some visualization which I will discuss in the following sections.
 ## Analysis
 Using the daily data for each county, linear regression was performed using the sklearn package. The graph of the linear regression and cooresponding data points for Saint Lawrence County is shown in Figure 2:
-
 <div align="center"><img src="/Images/st_law_Scatter.jpg" width="400" height="300">  </div>
+
 <div align="center">Figure 2: Saint Lawrence County Regression</div>
+<br />
+
+As you can see, the line does not appear to represent the data well and the $r^@$ value supports this with a very small value of 0.058766181544834484.
+
+The results for Kings country are not much better. A plot of the Kings County Regression is shown in Figure 3.
+<div align="center"><img src="/Images/kings_scatter.jpg" width="400" height="300">  </div>
+
+<div align="center">Figure 3: Kings County Regression</div>
 <br />
 
 ## Results/Findings
