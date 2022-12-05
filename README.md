@@ -102,11 +102,31 @@ df_st_law_joined_monthly = pd.DataFrame(df_st_law_joined.groupby(df_st_law_joine
 ```
 I then cleaned up the dataset, renaming the month indexes to month names, and produced some visualization which I will discuss in the following sections.
 ## Analysis
+### Daily Regressions
 Using the daily data for each county, linear regression was performed using the sklearn package. The graph of the linear regression and cooresponding data points for Saint Lawrence County is shown in Figure 2:
-
 <div align="center"><img src="/Images/st_law_Scatter.jpg" width="400" height="300">  </div>
+
 <div align="center">Figure 2: Saint Lawrence County Regression</div>
 <br />
 
+As you can see, the line does not appear to represent the data well and the $r^2$ value supports this with a very small value of 0.058766181544834484.
+
+The results for Kings country are not much better. A plot of the Kings County Regression is shown in Figure 3.
+<div align="center"><img src="/Images/kings_scatter.jpg" width="400" height="300">  </div>
+
+<div align="center">Figure 3: Kings County Regression</div>
+<br />
+
+The $r^2$ value for Kings County is 0.004648376948229838. Both models fail to be represented accuratly by a linear model.
+
+### Monthly Data
+I plotted the monthly data to attempt to visualize any correlation between PM2.5 and Precipitation on a monthly level. The graph I produced is shown in Figure 4.
+
+<div align="center"><img src="/Images/comparison_plot.jpg" width="400" height="300">  </div>
+<div align="center">Figure 4: Monthly PM.2.5 and Precipitation</div>
+<br />
+
+
 ## Results/Findings
-Currently Working through Project
+
+The results of this analysis were somewhat uninteresting. There does not appear to be a correlation between precipitation and PM 2.5. The monthly graph does show some interesting results though. It appears that the PM 2.5 in Kings county and in Saint Lawrence seem to correlate, despite being a somewhat far distance from one another. Additionally, Kings County has a higher amount of PM2.5, most likely due to the fact that it is heavily populated and located in a city. While this analysis did not lead to an interesting conclusion, if I had more weather data, I would be interested in exploring factors other than just precipitation, as it seems like there is more variables to consider when prediction PM 2.5.
