@@ -102,6 +102,7 @@ df_st_law_joined_monthly = pd.DataFrame(df_st_law_joined.groupby(df_st_law_joine
 ```
 I then cleaned up the dataset, renaming the month indexes to month names, and produced some visualization which I will discuss in the following sections.
 ## Analysis
+### Daily Regressions
 Using the daily data for each county, linear regression was performed using the sklearn package. The graph of the linear regression and cooresponding data points for Saint Lawrence County is shown in Figure 2:
 <div align="center"><img src="/Images/st_law_Scatter.jpg" width="400" height="300">  </div>
 
@@ -117,5 +118,14 @@ The results for Kings country are not much better. A plot of the Kings County Re
 <br />
 
 The $r^2$ value for Kings County is 0.004648376948229838. Both models fail to be represented accuratly by a linear model.
+
+### Monthly Data
+I plotted the monthly data to attempt to visualize any correlation between PM2.5 and Precipitation on a monthly level. The graph I produced is shown in Figure 4.
+
+<div align="center"><img src="/Images/comparison_plot.jpg" width="400" height="300">  </div>
+<div align="center">Figure 4: Monthly PM.2.5 and Precipitation</div>
+<br />
+
+
 ## Results/Findings
 Currently Working through Project
