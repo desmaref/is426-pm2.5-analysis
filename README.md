@@ -108,7 +108,7 @@ Using the daily data for each county, linear regression was performed using the 
 <div align="center">Figure 2: Saint Lawrence County Regression</div>
 <br />
 
-As you can see, the line does not appear to represent the data well and the $r^@$ value supports this with a very small value of 0.058766181544834484.
+As you can see, the line does not appear to represent the data well and the $r^2$ value supports this with a very small value of 0.058766181544834484.
 
 The results for Kings country are not much better. A plot of the Kings County Regression is shown in Figure 3.
 <div align="center"><img src="/Images/kings_scatter.jpg" width="400" height="300">  </div>
