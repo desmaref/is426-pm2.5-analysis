@@ -44,7 +44,7 @@ Column Header | Description
 -------------- | -------------
 State Code (FIPS) |  The state FPIS code, a integer number identifying the state 
 County Code (FIPS) | The County FPIS code, a integer number identifying the county of the observation
-Area Name (including legal/statistical area description) | Contains the name of the county which is accociated with the State andCounty codes
+Area Name (including legal/statistical area description) | Contains the name of the county which is accociated with the State and County codes
 
 
 ## Assumptions 
