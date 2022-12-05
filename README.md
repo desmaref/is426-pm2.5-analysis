@@ -128,4 +128,5 @@ I plotted the monthly data to attempt to visualize any correlation between PM2.5
 
 
 ## Results/Findings
-Currently Working through Project
+
+The results of this analysis were somewhat uninteresting. There does not appear to be a correlation between precipitation and PM 2.5. The monthly graph does show some interesting results though. It appears that the PM 2.5 in Kings county and in Saint Lawrence seem to correlate, despite being a somewhat far distance from one another. Additionally, Kings County has a higher amount of PM2.5, most likely due to the fact that it is heavily populated and located in a city. While this analysis did not lead to an interesting conclusion, if I had more weather data, I would be interested in exploring factors other than just precipitation, as it seems like there is more variables to consider when prediction PM 2.5.
