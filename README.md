@@ -116,6 +116,6 @@ The results for Kings country are not much better. A plot of the Kings County Re
 <div align="center">Figure 3: Kings County Regression</div>
 <br />
 
-THe $r^2$ value for Kings County is 0.004648376948229838. Both models fail to be represented accuratly by a linear model.
+The $r^2$ value for Kings County is 0.004648376948229838. Both models fail to be represented accuratly by a linear model.
 ## Results/Findings
 Currently Working through Project
