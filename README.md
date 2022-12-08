@@ -51,7 +51,7 @@ Area Name (including legal/statistical area description) | Contains the name of 
 - The North East may differ from the in PM effect, as it has unique weather compared to the rest of the county. Therefore, the analysis will focus on counties in the northeast
 - Data from the most recent year in the dataset 2016 is the most relevant, and will be used for analysis
 - Average daily PM2.5 is used to measure PM for each date
-- Certain Counties will be selected and explored individually, some with more population than other. The counties selected for analysis are Saint Lawrence county (located in upstate new york) and Kings Country (Located in New York City) 
+- Certain Counties will be selected and explored individually, some with more population than other. The counties selected for analysis are Saint Lawrence county (located in upstate New York) and Kings Country (Located in New York City) 
 
 ## Data processing steps
   The following steps were used to prepare the data for visualization and analysis
