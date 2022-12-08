@@ -75,7 +75,7 @@ Once I had these datasets filtered, I exported them to CSVs, located in the outp
 
 ### Join PM and Precipitation data for each County
 
-Throuhout the previous comple of steps, I was using base python to do my manipulations. For the rest of the project, I will usilize the pandas library, as I will have to apply functions often through full columns.
+Throuhout the previous couple of steps, I was using base python to do my manipulations. For the rest of the project, I will usilize the pandas library, as I will have to apply functions often through full columns.
 
 #### Weather Data preparation
 The weather data required a significant amount of assumptions for this analysis. I started with two datasets, one for Saint Lawrence County, and the other for Kings County. For each dataset I performed the following steps:
