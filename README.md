@@ -85,7 +85,7 @@ The weather data required a significant amount of assumptions for this analysis.
 
 I additionally converted the date fields to datetime objects to make future aggregations easier. 
 #### Joining Weather Data and PM2.5 data
-For both counties, I had a weather dataset and a PM2.5 dataset, with observations having a granualarity of one day. I performed a left join on these datasets to get final datasets for each county. These datasets contained the following columns:
+For both counties, I had a weather dataset and a PM2.5 dataset, with observations having a granularity of one day. I performed a left join on these datasets to get final datasets for each county. These datasets contained the following columns:
 
 Column Header | Description
 -------------- | -------------
