@@ -96,7 +96,7 @@ prcp| The average percipitation in the county
 The St. Lawrence dataset was left with exactly 1 year of data (365 rows), while the Kings County dataset contained 255, as the Kings county weather station did report daily. These datasets were used for plotting scatterplots and linear regression on a daily granularity. 
 
 ###  Aggregate by month for futher visualization
-After doing some analysis one a daily granularization, I decided to see what a comparison between PM2.5 and precipitation would look like on a monthly level. To do this, I used the pandas month function on the date column to isolate the month. I then grouped by the newly created month column and summarized by the average. The code I used is shown below:
+After doing some analysis on a daily granularization, I decided to see what a comparison between PM2.5 and precipitation would look like on a monthly level. To do this, I used the pandas month function on the date column to isolate the month. I then grouped by the newly created month column and summarized by the average. The code I used is shown below:
 ```python
 df_st_law_joined_monthly = pd.DataFrame(df_st_law_joined.groupby(df_st_law_joined.date.dt.month)['averagepm2.5',"prcp"].mean())
 ```
