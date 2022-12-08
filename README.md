@@ -38,7 +38,7 @@ While all these fields are offered, most stations do not track all of this data,
 
 ### FPIS Codes - https://www.census.gov/geographies/reference-files/2020/demo/popest/2020-fips.html
 
-This file is an excel document which provides FIPS codes to be joined with CDC data to convert data into understandable locations. The document coantains the following relevant fields:
+This file is an excel document which provides FIPS codes to be joined with CDC data to convert data into understandable locations. The document contains the following relevant fields:
 
 Column Header | Description
 -------------- | -------------
